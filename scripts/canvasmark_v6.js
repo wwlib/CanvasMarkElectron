@@ -63,7 +63,7 @@ var GameHandler =
    benchmarkScores: [],
    
    FPSMS: 60,
-   FRAME_TIME_MAX: 1000/30,
+   FRAME_TIME_MAX: 1000/10, //1000/30,
    MAX_GLITCH_COUNT: 10,
    
    /**
