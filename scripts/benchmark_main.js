@@ -267,11 +267,17 @@ if (typeof Benchmark == "undefined" || !Benchmark)
             else
             {
                // write results to browser
+                //doesn't work in Electron - $ undefined
+                /*
                $("#results").html("<p>CanvasMark Score: " + score + " (" + browser + " on " + OS + ")</p>");
                // tweet this result link
                var tweet = "http://twitter.com/home/?status=" + browser + " (" + OS + ") scored " + score + " in the CanvasMark HTML5 benchmark! Test your browser: http://bit.ly/canvasmark %23javascript %23html5";
                $("#tweetlink").attr('href', tweet.replace(/ /g, "%20"));
                $("#results-wrapper").fadeIn();
+               */
+
+                console.log("CanvasMark Score: " + score + " (" + browser + " on " + OS + ")");
+
             }
          }
          Game.centerFillText(ctx, interval.label, "18pt Helvetica", GameHandler.height/2 - 32, "white");
