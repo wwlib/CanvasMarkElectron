@@ -6,3 +6,8 @@ CanvasMark 2013 - Benchmark tool for HTML5 canvas 2D performance testing. As use
 http://www.kevs3d.co.uk/dev/canvasmark
 https://github.com/kevinroast/CanvasMark
 
+Version: CanvasMarkElectron - forked and modified by WwLib 2015
+
+Run:
+
+electron index.js

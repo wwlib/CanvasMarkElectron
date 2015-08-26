@@ -1,0 +1,24 @@
+{
+  "name": "canvas-mark-electron",
+  "version": "0.1.0",
+  "description": "An Electron version of CanvasMark",
+  "main": "index.js",
+  "scripts": {
+    "test": "TBD"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wwlib/CanvasMarkElectron.git"
+  },
+  "keywords": [
+    "canvas",
+    "benchmark",
+    "electron"
+  ],
+  "author": "Andrew Rapo <andrew@worthwhilegames.org> (http://worthwhilegames.org)",
+  "license": "Link back to the original holding website www.kev3d.co.uk",
+  "bugs": {
+    "url": "https://github.com/wwlib/CanvasMarkElectron/issues"
+  },
+  "homepage": "https://github.com/wwlib/CanvasMarkElectron#readme"
+}
